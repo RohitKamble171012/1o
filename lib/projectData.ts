@@ -69,7 +69,7 @@ export const projectDetails: Record<string, {
       'Custom regex engine for data parsing',
       'Open source & self-hostable',
     ],
-    liveLink: 'https://github.com/RohitKamble171012',
+    liveLink: 'https://apply-flowweb.vercel.app/',
     researchLink: undefined,
   },
   'smart-learn-hub': {
@@ -115,7 +115,7 @@ export const projectDetails: Record<string, {
       'Company portfolio showcase',
       'Built with Next.js App Router',
     ],
-    liveLink: 'https://sharpengineering.vercel.app',
+    liveLink: 'https://www.sharpengineering.online/',
     researchLink: undefined,
   },
 }
