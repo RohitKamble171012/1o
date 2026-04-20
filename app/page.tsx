@@ -312,7 +312,9 @@ export default function HomePage() {
         <GridBackground />
         <div className="relative max-w-4xl mx-auto px-6 text-center">
           <Section>
-            <Badge variant="brand" className="mb-6">Let&apos;s Build Something Great</Badge>
+            <div className="mb-6">
+              <Badge variant="brand">Let&apos;s Build Something Great</Badge>
+              </div>
             <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-ink-primary mb-6">
               Ready to ship<br />your idea?
             </h2>
