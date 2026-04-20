@@ -115,7 +115,7 @@ export const projectDetails: Record<string, {
       'Company portfolio showcase',
       'Built with Next.js App Router',
     ],
-    liveLink: 'https://www.sharpengineering.online/',
+    liveLink: 'https://www.sharpengineering.online',
     researchLink: undefined,
   },
 }
