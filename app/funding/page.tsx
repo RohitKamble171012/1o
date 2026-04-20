@@ -182,7 +182,7 @@ export default function FundingPage() {
               <h3 className="font-display text-2xl text-ink-primary mb-2">UPI</h3>
               <p className="text-ink-muted text-sm mb-6">Send via any UPI app (India)</p>
               <div className="bg-surface-1 border border-surface-3 rounded-xl p-4 mb-6 font-mono text-sm text-ink-secondary">
-                [UPI ID coming soon]
+                rohitkamble171012@okaxis
               </div>
               <button
                 className="w-full inline-flex items-center justify-center gap-2 bg-green-500 text-white px-6 py-3 rounded-full font-medium hover:bg-green-600 transition-colors"
