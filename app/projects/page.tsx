@@ -9,42 +9,6 @@ export const metadata: Metadata = {
   description: 'Explore projects built by 1o — including ApplyFlow, SmartLearn Hub, and Sharp Engineering.',
 }
 
-export const projects = [
-  {
-    slug: 'applyflow',
-    title: 'ApplyFlow',
-    subtitle: 'AI-Powered Job Application Tracker',
-    tag: 'Featured',
-    description: 'A full-stack job application tracker with automatic Gmail sync, NLP-based email classification, and ATS-aware company extraction. Built to eliminate the chaos of job searching.',
-    tech: ['JavaScript', 'CSS', 'HTML', 'Node.js', 'NLP', 'Gmail API', 'Regex Engine'],
-    status: 'Live',
-    type: 'Open Source / Research',
-    year: '2025',
-  },
-  {
-    slug: 'smart-learn-hub',
-    title: 'SmartLearn Hub',
-    subtitle: 'Learning Management System with AI',
-    tag: 'IIT Bombay',
-    description: 'An interactive LMS built during an internship at IIT Bombay. Features teacher quiz management, real-time student evaluation, progress tracking dashboards, and an AI learning assistant.',
-    tech: ['TypeScript', 'JavaScript', 'React', 'Node.js', 'MongoDB', 'AI'],
-    status: 'Live',
-    type: 'Internship Project',
-    year: '2025',
-  },
-  {
-    slug: 'sharp-engineering',
-    title: 'Sharp Engineering',
-    subtitle: 'Official Company Website',
-    tag: 'Client',
-    description: 'Designed and developed the official company website from scratch. Fully responsive, SEO-optimized, and deployed on Vercel with fast load times and high uptime.',
-    tech: ['Next.js', 'React', 'Tailwind CSS', 'Vercel'],
-    status: 'Live',
-    type: 'Freelance Contract',
-    year: '2025',
-  },
-  
-]
 
 export default function ProjectsPage() {
   const featured = projects.filter(p => p.tag === 'Featured')
