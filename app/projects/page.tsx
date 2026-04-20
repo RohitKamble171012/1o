@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 import { Section, Badge, GridBackground, TechTag } from '@/components/ui'
+import { projects } from '@/lib/projectData'   
 
 export const metadata: Metadata = {
   title: 'Projects',
